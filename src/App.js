@@ -1,9 +1,11 @@
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="wrapper clear">
+      <header className="d-flex justify-between">
+        <h1>Header</h1>
+      </header>
     </div>
   );
 }
